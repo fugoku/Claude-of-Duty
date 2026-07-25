@@ -2,8 +2,8 @@
   "name": "claude-of-duty",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node api.js && vite",
+    "build": "node api.js && vite build",
     "preview": "vite preview --port 4173",
     "shot": "node tools/capture.mjs"
   },
